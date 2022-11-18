@@ -1,6 +1,5 @@
 package single_number;
 
-
 import static single_number.Solution.singleNumber;
 
 // https://leetcode.com/problems/single-number/

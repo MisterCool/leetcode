@@ -1,7 +1,5 @@
 package contains_duplicate;
 
-import java.util.List;
-
 // https://leetcode.com/problems/contains-duplicate/
 public class Main {
     public static void main(String[] args) {
