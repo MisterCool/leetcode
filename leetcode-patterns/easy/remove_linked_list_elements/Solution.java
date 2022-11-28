@@ -18,7 +18,6 @@ public class Solution {
                 node.next = node.next.next;
             } else {
                 node = node.next;
-
             }
         }
 
