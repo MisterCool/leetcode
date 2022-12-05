@@ -12,6 +12,6 @@ public class Main {
                 new TreeNode(2, new TreeNode(4, new TreeNode(6), null), new TreeNode(5, null, new TreeNode(8))),
         new TreeNode(3));
 
-        System.out.println(new Solution().diameterOfBinaryTree(treeNode));
+        System.out.println(new Solution().diameterOfBinaryTree1(treeNode));
     }
 }
