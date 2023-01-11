@@ -1,7 +1,7 @@
 package missing_number;
 
 
-// sum of an arithmetic progression = (a1 + aN) * N / 2
+// sum of an arithmetic progression = n*(n+1)/2
 public class Solution {
 
     public static int missingNumber(int[] nums) {
