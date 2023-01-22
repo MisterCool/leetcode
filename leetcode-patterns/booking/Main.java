@@ -46,9 +46,6 @@ public class Main {
             if (visited[i]) continue;
 
             for (int j = i; j < i + daysPerCity; j++) {
-                if (visited[j]) {
-                    continue;
-                }
                 costs.add(hotels.get(s).get(j));
                 visited[j] = true;
             }
