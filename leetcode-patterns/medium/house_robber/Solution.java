@@ -3,6 +3,7 @@ package house_robber;
 import java.util.Arrays;
 
 // on every step we decide rob or not rob it is similar on backtracking
+// https://leetcode.com/problems/house-robber/solutions/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
 public class Solution {
 
     public int rob(int[] nums) {
