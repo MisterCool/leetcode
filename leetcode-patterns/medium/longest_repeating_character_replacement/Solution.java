@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-// the main idea is find the more frequency char and it turns out that
+// the main idea is find the most frequent char, and it turns out that
 // windowSize - maxFreq is count of replaces needed to get a repeating sequence
 public class Solution {
 
