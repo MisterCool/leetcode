@@ -30,7 +30,7 @@ public class Solution {
     }
 
     // O(1)
-    // I need use space inside matrix namely 0 row and 0 col which will show how I have to set cell
+    // I need to use space inside matrix namely 0 row and 0 col which will show how I have to set cell
     public static void setZeroesOptimal(int[][] matrix) {
 
         int colLength = matrix.length;
