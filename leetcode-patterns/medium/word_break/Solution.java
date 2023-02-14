@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+// complexity is O(n^3)
 public class Solution {
 
     public boolean wordBreak(String s, List<String> wordDict) {

@@ -36,8 +36,7 @@ public class Solution {
         if (root == null) return false;
         targetSum -= root.val;
         if(root.left==null && root.right==null){
-            if(targetSum == 0)return true;
-            else return false;
+            return targetSum == 0;
         }
         return hasPathSumRec(root.left, targetSum) || hasPathSumRec(root.right, targetSum);
     }

@@ -19,8 +19,35 @@ public class Solution {
 
         return seq.size();
     }
+
+
+    public int lengthOfLISBruteForce(int[] nums) {
+
+        return dfs(0, nums, Integer.MIN_VALUE);
+    }
+
     // brute-force
     private int dfs(int index, int[] nums, int prev) {
+
+        if (index >= nums.length) {
+            return 0;
+        }
+
+        int curr = nums[index];
+        int pick = 0;
+
+        if (curr > prev) {
+            pick = 1 + dfs(index + 1, nums, curr);
+
+        }
+
+        int notPick = dfs(index + 1, nums, prev);
+
+        return Math.max(pick, notPick);
+    }
+
+    // brute-force
+    private int dfsWithMemo(int index, int[] nums, int prev, int[][] dp) {
 
         if (index >= nums.length) {
             return 0;
