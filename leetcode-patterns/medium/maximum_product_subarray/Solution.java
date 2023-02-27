@@ -20,18 +20,4 @@ public class Solution {
         }
         return best;
     }
-
-
-    public int maxProductWithoutNegative(int[] nums) {
-        int best = Integer.MIN_VALUE;
-        int runningProduct = 1;
-        for (int n : nums) {
-            // Pick the larger of current number and the result of the multiplication
-            // Picking n means we start considering a new sub-array
-            runningProduct = Math.max(runningProduct * n, n);
-            // Keep track of the max runningProduct that we find
-            best = Math.max(runningProduct, best);
-        }
-        return best;
-    }
 }
