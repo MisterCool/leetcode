@@ -1,7 +1,7 @@
 package longest_palindromic_substring;
 
 // https://leetcode.com/problems/longest-palindromic-substring/solutions/1338509/python-two-pointer-easy2understand-solution/
-// we will consider each character of the string as center and try to expand it if its pallindromic property exists.
+// we will consider each character of the string as center and try to expand it if its palindromic property exists.
 public class Solution {
     public String longestPalindrome(String s) {
         int maxLength = 0;
