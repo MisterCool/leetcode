@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 //},
 // Задача: вывести обратно все возможные стоимости маршрутов, которые укладываются в бюджет, в порядке возрастания
 
-//
 public class Main {
 
     public static void main(String[] args) {
